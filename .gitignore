@@ -1,6 +1,7 @@
 # generated types
 .astro/
-
+.github/workflows/
+dist/
 # dependencies
 node_modules/
 
