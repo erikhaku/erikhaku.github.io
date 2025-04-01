@@ -1,0 +1,84 @@
+---
+// Component imports and frontmatter go here
+
+---
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>Haku Holding AB</title>
+	<style>
+		* {
+		  margin: 0;
+		  padding: 0;
+		  box-sizing: border-box;
+		}
+  
+		body {
+		  font-family: 'Helvetica', 'Arial', sans-serif;
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		  justify-content: center;
+		  min-height: 100vh;
+		  background-color: white;
+		  color: #333;
+		  text-align: center;
+		  padding: 2rem;
+		}
+  
+		.image-container {
+		  margin-bottom: 1rem;
+		  position: relative;
+		  overflow: hidden; /* Important for rounded corners to work correctly */
+		}
+  
+		.image-container img {
+		  max-width: 100%;
+		  height: auto;
+		  border-radius: 32px; /* Adjust the radius for desired roundness */
+		  display: block;
+		}
+  
+		.text-content {
+		  display: flex;
+		  flex-direction: column;
+		  align-items: center;
+		}
+  
+		h1 {
+		  font-size: 2rem;
+		  font-weight: bold;
+		  opacity: 0.9;
+		  margin-bottom: 1.2rem;
+		}
+  
+		.subtitle {
+		  font-size: 1.2rem;
+		  margin-bottom: 0.2rem;
+		  color: #666;
+		}
+  
+		.contact {
+		  font-size: 1rem;
+		  color: #999;
+		}
+	  </style>
+  </head>
+  <body>
+	<div class="header-content">
+		<h1>Haku Holding AB</h1>
+	</div>
+    <div class="image-container">
+      <img width="450"  src="profile.png" alt="Haku Holding AB" />
+    </div>
+    
+    <div class="text-content">
+      <div class="subtitle">Erik Johansson</div>
+      <div class="contact">erik@hakuholding.se</div>
+    </div>
+  </body>
+</html>
